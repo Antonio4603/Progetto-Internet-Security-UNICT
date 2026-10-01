@@ -5,21 +5,24 @@ Repository contenente il progetto di Internet Security (Università di Catania),
 Il progetto esplora la categoria di rischio *Improper Platform Usage*, che si verifica quando le applicazioni mobile utilizzano in modo errato le funzionalità di sicurezza della piattaforma o falliscono nell'implementare controlli nativi adeguati. Vengono analizzati tre scenari concreti di vulnerabilità associati ad esempi di codice pratici e alle relative contromisure (Fix).
 
 # 🛠️ Demo e Casi Studio Implementati
-1. WebView Demo (Phishing & JavaScript Injection)
+**1. WebView Demo (Phishing & JavaScript Injection)**
+
 Descrizione: Viene analizzato l'uso insicuro delle WebView nelle applicazioni mobile.
 
 Attacco: Simulazione di un attacco in cui una WebView carica contenuti non validati o permette l'esecuzione arbitraria di codice JavaScript (es. interazione anomala con i cookie o furto di credenziali attraverso schermate di login contraffatte).
 
 Mitigazione: Configurazione sicura della WebView, disabilitazione di funzionalità JavaScript superflue ove non necessarie e validazione rigorosa degli URL caricati.
 
-2. Clipboard Demo (Data Leakage)
+**2. Clipboard Demo (Data Leakage)**
+
 Descrizione: Analisi dei rischi legati all'accesso non controllato alla memoria degli appunti (clipboard) del dispositivo.
 
 Vulnerabilità: Applicazioni terze o script malevoli in background possono leggere dati sensibili (come password, token di sessione o dati personali) copiati in precedenza dall'utente.
 
 Fix: Introduzione di meccanismi di oscuramento/cancellazione della clipboard o restrizioni d'accesso nei sistemi operativi moderni per prevenire la fuga di dati (Data Leakage).
 
-3. Background Monitoring (Privacy & Resource Abuse)
+**3. Background Monitoring (Privacy & Resource Abuse)**
+
 Descrizione: Gestione scorretta dei processi in background o dei servizi di localizzazione/monitoraggio continuo.
 
 Attacco: L'applicazione sfrutta permessi sensibili per tracciare o raccogliere informazioni sull'utente anche quando l'app non è in primo piano, violando la privacy e consumando risorse di sistema.
