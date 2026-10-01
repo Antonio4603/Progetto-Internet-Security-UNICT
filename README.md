@@ -38,7 +38,7 @@ Consulta la relazione tecnica (Relazione.pdf) per i dettagli teorici, i framment
 
 Esegui i singoli moduli di test seguendo le istruzioni specifiche all'interno delle rispettive directory.
 
-#📚 Riferimenti e Standard di Sicurezza
+# 📚 Riferimenti e Standard di Sicurezza
 OWASP Mobile Top 10 – M1: Improper Platform Usage
 
 Documentazione ufficiale di sicurezza Android / iOS sulle WebView e la gestione dei permessi.
