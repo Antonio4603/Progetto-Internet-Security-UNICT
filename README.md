@@ -7,27 +7,27 @@ Il progetto esplora la categoria di rischio *Improper Platform Usage*, che si ve
 # 🛠️ Demo e Casi Studio Implementati
 **1. WebView Demo (Phishing & JavaScript Injection)**
 
-Descrizione: Viene analizzato l'uso insicuro delle WebView nelle applicazioni mobile.
+**Descrizione**: Viene analizzato l'uso insicuro delle WebView nelle applicazioni mobile.
 
-Attacco: Simulazione di un attacco in cui una WebView carica contenuti non validati o permette l'esecuzione arbitraria di codice JavaScript (es. interazione anomala con i cookie o furto di credenziali attraverso schermate di login contraffatte).
+**Attacco**: Simulazione di un attacco in cui una WebView carica contenuti non validati o permette l'esecuzione arbitraria di codice JavaScript (es. interazione anomala con i cookie o furto di credenziali attraverso schermate di login contraffatte).
 
-Mitigazione: Configurazione sicura della WebView, disabilitazione di funzionalità JavaScript superflue ove non necessarie e validazione rigorosa degli URL caricati.
+**Mitigazione**: Configurazione sicura della WebView, disabilitazione di funzionalità JavaScript superflue ove non necessarie e validazione rigorosa degli URL caricati.
 
 **2. Clipboard Demo (Data Leakage)**
 
-Descrizione: Analisi dei rischi legati all'accesso non controllato alla memoria degli appunti (clipboard) del dispositivo.
+**Descrizione**: Analisi dei rischi legati all'accesso non controllato alla memoria degli appunti (clipboard) del dispositivo.
 
-Vulnerabilità: Applicazioni terze o script malevoli in background possono leggere dati sensibili (come password, token di sessione o dati personali) copiati in precedenza dall'utente.
+**Vulnerabilità**: Applicazioni terze o script malevoli in background possono leggere dati sensibili (come password, token di sessione o dati personali) copiati in precedenza dall'utente.
 
-Fix: Introduzione di meccanismi di oscuramento/cancellazione della clipboard o restrizioni d'accesso nei sistemi operativi moderni per prevenire la fuga di dati (Data Leakage).
+**Fix**: Introduzione di meccanismi di oscuramento/cancellazione della clipboard o restrizioni d'accesso nei sistemi operativi moderni per prevenire la fuga di dati (Data Leakage).
 
 **3. Background Monitoring (Privacy & Resource Abuse)**
 
-Descrizione: Gestione scorretta dei processi in background o dei servizi di localizzazione/monitoraggio continuo.
+**Descrizione**: Gestione scorretta dei processi in background o dei servizi di localizzazione/monitoraggio continuo.
 
-Attacco: L'applicazione sfrutta permessi sensibili per tracciare o raccogliere informazioni sull'utente anche quando l'app non è in primo piano, violando la privacy e consumando risorse di sistema.
+**Attacco**: L'applicazione sfrutta permessi sensibili per tracciare o raccogliere informazioni sull'utente anche quando l'app non è in primo piano, violando la privacy e consumando risorse di sistema.
 
-Fix: Adeguamento alle linee guida di sicurezza per limitare l'esecuzione in background e richiedere solo i permessi strettamente necessari (Principle of Least Privilege).
+**Fix**: Adeguamento alle linee guida di sicurezza per limitare l'esecuzione in background e richiedere solo i permessi strettamente necessari (Principle of Least Privilege).
 
 # 🗂️ Struttura della Repository
 La repository raccoglie il codice sorgente delle demo e la documentazione tecnica del progetto:
